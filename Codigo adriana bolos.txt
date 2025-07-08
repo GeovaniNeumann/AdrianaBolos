@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adriana Bolos - Bolos Artesanais para Festas</title>
+    <meta name="description" content="Bolos artesanais feitos com amor para suas festas de aniversário. Atendimento no Bairro Alto, Curitiba. Encomendas pelo WhatsApp ou Instagram.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="https://i.ibb.co/y3SzBvT/Logo-adriana.png">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="https://i.ibb.co/y3SzBvT/Logo-adriana.png" alt="Adriana Bolos Logo" class="logo-img">
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-main">Adriana Bolos</span>
+                    <span class="title-sub">Artesanal & Delicioso</span>
+                </h1>
+                <p class="hero-description">
+                    Bolos feitos com ingredientes selecionados e muito carinho para tornar sua festa de aniversário ainda mais especial. 
+                    Atendimento personalizado para o Bairro Alto e região.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#gallery" class="btn btn-primary">Ver Bolos</a>
+                    <a href="https://wa.me/5541999999999" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-whatsapp"></i> Encomendar
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Bolo de Aniversário" class="hero-img">
+            </div>
+        </div>
+        <div class="hero-decoration">
+            <div class="floating-element element-1"></div>
+            <div class="floating-element element-2"></div>
+            <div class="floating-element element-3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre Nós</h2>
+                <p class="section-subtitle">Conheça a história por trás de cada bolo</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Adriana Bolos</h3>
+                    <p>
+                        Com anos de experiência na confeitaria, Adriana dedica-se à criação de bolos artesanais únicos 
+                        para festas de aniversário. Cada bolo é feito com técnicas tradicionais e muito carinho, 
+                        resultando em sabores que encantam e despertam sorrisos.
+                    </p>
+                    <p>
+                        Na Adriana Bolos, acreditamos que cada festa merece um bolo especial. Nossas criações são 
+                        perfeitas para celebrar momentos importantes com familiares e amigos, garantindo sabor e 
+                        apresentação impecáveis.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <span>Feito com Amor</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-birthday-cake"></i>
+                            <span>Ingredientes Selecionados</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-star"></i>
+                            <span>Qualidade Garantida</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1562440499-64c9a111f713?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Adriana preparando bolos" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos Bolos</h2>
+                <p class="section-subtitle">Conheça algumas de nossas criações especiais</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="bolos">
+                    <img src="https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Bolo de Chocolate" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Bolo de Chocolate</h4>
+                        <p>Recheio de brigadeiro e morangos</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="bolos">
+                    <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Bolo de Aniversário" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Bolo de Aniversário</h4>
+                        <p>Personalizado para sua festa</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="bolos">
+                    <img src="https://images.unsplash.com/photo-1542826438-bd32f43d626f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Bolo de Casamento" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Bolo de Casamento</h4>
+                        <p>Elegância e sofisticação</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="bolos">
+                    <img src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Bolo de Cenoura" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Bolo de Cenoura</h4>
+                        <p>Com cobertura de chocolate</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="bolos">
+                    <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Bolo Decorado" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Bolo Decorado</h4>
+                        <p>Tema personalizado</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="bolos">
+                    <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Bolo de Red Velvet" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Bolo Red Velvet</h4>
+                        <p>Com cream cheese</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-subtitle">Faça sua encomenda para sua próxima festa</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Encomendas</h3>
+                    <p>
+                        Estamos prontos para criar o bolo perfeito para sua festa. 
+                        Entre em contato através do WhatsApp ou Instagram.
+                    </p>
+                    <div class="contact-methods">
+                        <a href="https://wa.me/5541999999999" class="contact-method whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>(41) 99999-9999</p>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/adrianabolos/" class="contact-method instagram" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <div>
+                                <h4>Instagram</h4>
+                                <p>@adrianabolos</p>
+                            </div>
+                        </a>
+                        <a href="https://www.facebook.com/adrianabolos" class="contact-method facebook" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                            <div>
+                                <h4>Facebook</h4>
+                                <p>Adriana Bolos</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossa Localização</h2>
+                <p class="section-subtitle">Atendemos no Bairro Alto e região - Curitiba/PR</p>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.231096052989!2d-49.31582892404825!3d-25.46291523295137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce3d0a8e5f3a5%3A0x6b1e4a1a9e4b0e5d!2sBairro%20Alto%2C%20Curitiba%20-%20PR!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="https://i.ibb.co/y3SzBvT/Logo-adriana.png" alt="Adriana Bolos Logo" class="footer-logo">
+                    <p>Bolos artesanais feitos com amor para suas festas de aniversário. Atendimento no Bairro Alto, Curitiba.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#gallery">Galeria</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p><i class="fab fa-whatsapp"></i> (41) 99999-9999</p>
+                    <p><i class="fab fa-instagram"></i> @adrianabolos</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Bairro Alto - Curitiba/PR</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Adriana Bolos. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for Gallery -->
+    <div id="galleryModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modalImage" src="" alt="">
+            <div class="modal-navigation">
+                <button id="prevBtn" class="nav-btn"><i class="fas fa-chevron-left"></i></button>
+                <button id="nextBtn" class="nav-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div id="modalCaption"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <style>
+    /* Reset e configurações básicas */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    :root {
+        --primary-color: #e91e63;
+        --secondary-color: #f8bbd0;
+        --accent-color: #c2185b;
+        --dark-color: #2c2c2c;
+        --light-color: #ffffff;
+        --text-color: #333333;
+        --text-light: #666666;
+        --gradient-primary: linear-gradient(135deg, #e91e63 0%, #f8bbd0 100%);
+        --gradient-secondary: linear-gradient(135deg, #c2185b 0%, #e91e63 100%);
+        --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        --shadow-hover: 0 15px 40px rgba(0, 0, 0, 0.15);
+        --border-radius: 15px;
+        --transition: all 0.3s ease;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.6;
+        color: var(--text-color);
+        overflow-x: hidden;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    /* Header e Navegação */
+    .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        z-index: 1000;
+        transition: var(--transition);
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar {
+        padding: 1rem 0;
+    }
+
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .logo-img {
+        height: 60px;
+        width: auto;
+        border-radius: 10px;
+        transition: var(--transition);
+    }
+
+    .logo-img:hover {
+        transform: scale(1.05);
+    }
+
+    .nav-menu {
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        color: var(--text-color);
+        font-weight: 500;
+        position: relative;
+        transition: var(--transition);
+    }
+
+    .nav-link:hover {
+        color: var(--primary-color);
+    }
+
+    .nav-link::after {
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: var(--gradient-primary);
+        transition: var(--transition);
+    }
+
+    .nav-link:hover::after {
+        width: 100%;
+    }
+
+    .hamburger {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background: var(--text-color);
+        margin: 3px 0;
+        transition: var(--transition);
+        border-radius: 2px;
+    }
+
+    /* Hero Section */
+    .hero {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background: var(--gradient-primary);
+        position: relative;
+        overflow: hidden;
+        padding-top: 100px;
+    }
+
+    .hero-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        z-index: 2;
+        position: relative;
+    }
+
+    .hero-title {
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        line-height: 1.2;
+    }
+
+    .title-main {
+        display: block;
+        color: var(--dark-color);
+    }
+
+    .title-sub {
+        display: block;
+        font-family: 'Dancing Script', cursive;
+        font-size: 2.5rem;
+        color: var(--light-color);
+        margin-top: 0.5rem;
+    }
+
+    .hero-description {
+        font-size: 1.2rem;
+        color: var(--light-color);
+        margin-bottom: 2rem;
+        line-height: 1.8;
+    }
+
+    .hero-buttons {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        padding: 15px 30px;
+        border: none;
+        border-radius: var(--border-radius);
+        font-size: 1rem;
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+        transition: var(--transition);
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .btn-primary {
+        background: var(--gradient-secondary);
+        color: var(--light-color);
+        box-shadow: var(--shadow);
+    }
+
+    .btn-primary:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--shadow-hover);
+    }
+
+    .btn-secondary {
+        background: transparent;
+        color: var(--light-color);
+        border: 2px solid var(--light-color);
+    }
+
+    .btn-secondary:hover {
+        background: var(--light-color);
+        color: var(--primary-color);
+        transform: translateY(-3px);
+    }
+
+    .hero-image {
+        position: relative;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: var(--shadow-hover);
+        transition: var(--transition);
+    }
+
+    .hero-img:hover {
+        transform: scale(1.02);
+    }
+
+    /* Elementos flutuantes */
+    .hero-decoration {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+    }
+
+    .floating-element {
+        position: absolute;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        animation: float 6s ease-in-out infinite;
+    }
+
+    .element-1 {
+        width: 80px;
+        height: 80px;
+        top: 20%;
+        left: 10%;
+        animation-delay: 0s;
+    }
+
+    .element-2 {
+        width: 120px;
+        height: 120px;
+        top: 60%;
+        right: 10%;
+        animation-delay: 2s;
+    }
+
+    .element-3 {
+        width: 60px;
+        height: 60px;
+        top: 80%;
+        left: 20%;
+        animation-delay: 4s;
+    }
+
+    @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-20px); }
+    }
+
+    /* Seções gerais */
+    .section-header {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--dark-color);
+        margin-bottom: 1rem;
+        position: relative;
+    }
+
+    .section-title::after {
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 4px;
+        background: var(--gradient-primary);
+        border-radius: 2px;
+    }
+
+    .section-subtitle {
+        font-size: 1.1rem;
+        color: var(--text-light);
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    /* About Section */
+    .about {
+        padding: 100px 0;
+        background: var(--light-color);
+    }
+
+    .about-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+        align-items: center;
+    }
+
+    .about-text h3 {
+        font-size: 2rem;
+        color: var(--primary-color);
+        margin-bottom: 1.5rem;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .about-text p {
+        margin-bottom: 1.5rem;
+        color: var(--text-light);
+        line-height: 1.8;
+    }
+
+    .about-features {
+        display: flex;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .feature {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--primary-color);
+        font-weight: 500;
+    }
+
+    .feature i {
+        font-size: 1.2rem;
+    }
+
+    .about-img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: var(--shadow);
+        transition: var(--transition);
+    }
+
+    .about-img:hover {
+        transform: scale(1.02);
+        box-shadow: var(--shadow-hover);
+    }
+
+    /* Gallery Section */
+    .gallery {
+        padding: 100px 0;
+        background: var(--secondary-color);
+    }
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+    }
+
+    .gallery-item {
+        position: relative;
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        box-shadow: var(--shadow);
+        transition: var(--transition);
+        cursor: pointer;
+    }
+
+    .gallery-item:hover {
+        transform: translateY(-10px);
+        box-shadow: var(--shadow-hover);
+    }
+
+    .gallery-img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        transition: var(--transition);
+    }
+
+    .gallery-item:hover .gallery-img {
+        transform: scale(1.1);
+    }
+
+    .gallery-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+        color: var(--light-color);
+        padding: 2rem;
+        transform: translateY(100%);
+        transition: var(--transition);
+    }
+
+    .gallery-item:hover .gallery-overlay {
+        transform: translateY(0);
+    }
+
+    .gallery-overlay h4 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /* Contact Section */
+    .contact {
+        padding: 100px 0;
+        background: var(--light-color);
+    }
+
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .contact-info {
+        max-width: 600px;
+        text-align: center;
+    }
+
+    .contact-info p {
+        text-align: center;
+    }
+
+    .contact-methods {
+        align-items: center;
+    }
+
+    .contact-info h3 {
+        font-size: 2rem;
+        color: var(--primary-color);
+        margin-bottom: 1.5rem;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .contact-info p {
+        color: var(--text-light);
+        margin-bottom: 2rem;
+        line-height: 1.8;
+    }
+
+    .contact-methods {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .contact-method {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        background: var(--secondary-color);
+        border-radius: var(--border-radius);
+        transition: var(--transition);
+        text-decoration: none;
+        color: var(--text-color);
+    }
+
+    .contact-method:hover {
+        transform: translateX(10px);
+        box-shadow: var(--shadow);
+    }
+
+    .contact-method i {
+        font-size: 2rem;
+        color: var(--primary-color);
+    }
+
+    .contact-method h4 {
+        color: var(--dark-color);
+        margin-bottom: 0.25rem;
+    }
+
+    .contact-method p {
+        color: var(--text-light);
+        margin: 0;
+    }
+
+    /* Location Section */
+    .location {
+        padding: 60px 0;
+        background: var(--secondary-color);
+    }
+
+    .map-container {
+        width: 100%;
+        height: 400px;
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        box-shadow: var(--shadow);
+    }
+
+    .map-container iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+    /* Footer */
+    .footer {
+        background: var(--dark-color);
+        color: var(--light-color);
+        padding: 60px 0 20px;
+    }
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer-logo {
+        height: 80px;
+        width: auto;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    }
+
+    .footer-section h4 {
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .footer-section ul {
+        list-style: none;
+    }
+
+    .footer-section ul li {
+        margin-bottom: 0.5rem;
+    }
+
+    .footer-section ul li a {
+        color: var(--light-color);
+        text-decoration: none;
+        transition: var(--transition);
+    }
+
+    .footer-section ul li a:hover {
+        color: var(--primary-color);
+    }
+
+    .footer-section p {
+        color: #cccccc;
+        line-height: 1.6;
+    }
+
+    .footer-section i {
+        color: var(--primary-color);
+        margin-right: 0.5rem;
+    }
+
+    .footer-bottom {
+        border-top: 1px solid #444;
+        padding-top: 2rem;
+        text-align: center;
+        color: #cccccc;
+    }
+
+    /* Modal */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 2000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        overflow: auto;
+    }
+
+    .modal-content {
+        position: relative;
+        margin: auto;
+        padding: 20px;
+        width: 90%;
+        max-width: 800px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .modal-content img {
+        width: 100%;
+        height: auto;
+        max-height: 80vh;
+        border-radius: var(--border-radius);
+        display: block;
+        margin: 0 auto;
+    }
+
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: var(--light-color);
+        font-size: 40px;
+        font-weight: bold;
+        cursor: pointer;
+        z-index: 2001;
+        transition: var(--transition);
+    }
+
+    .close:hover {
+        color: var(--primary-color);
+        transform: scale(1.1);
+    }
+
+    #modalCaption {
+        text-align: center;
+        color: var(--light-color);
+        padding: 15px 0;
+        font-size: 1.2rem;
+    }
+
+    .modal-navigation {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-50%);
+        pointer-events: none;
+    }
+
+    .nav-btn {
+        pointer-events: all;
+        background: rgba(0, 0, 0, 0.5);
+        border: none;
+        color: white;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: var(--transition);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-btn:hover {
+        background: var(--primary-color);
+        transform: scale(1.1);
+    }
+
+    /* Responsividade */
+    @media screen and (max-width: 768px) {
+        .hamburger {
+            display: flex;
+        }
+
+        .nav-menu {
+            position: fixed;
+            left: -100%;
+            top: 70px;
+            flex-direction: column;
+            background-color: var(--light-color);
+            width: 100%;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow: var(--shadow);
+            padding: 2rem 0;
+        }
+
+        .nav-menu.active {
+            left: 0;
+        }
+
+        .nav-menu li {
+            margin: 1rem 0;
+        }
+
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+
+        .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+
+        .hero-content {
+            grid-template-columns: 1fr;
+            text-align: center;
+            gap: 2rem;
+        }
+
+        .hero-title {
+            font-size: 2.5rem;
+        }
+
+        .title-sub {
+            font-size: 2rem;
+        }
+
+        .about-content {
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+
+        .about-features {
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .contact-content {
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+
+        .hero-buttons {
+            justify-content: center;
+        }
+
+        .gallery-grid {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .modal-content {
+            width: 95%;
+        }
+
+        .nav-btn {
+            width: 40px;
+            height: 40px;
+            font-size: 1.2rem;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .container {
+            padding: 0 15px;
+        }
+
+        .hero-title {
+            font-size: 2rem;
+        }
+
+        .title-sub {
+            font-size: 1.5rem;
+        }
+
+        .section-title {
+            font-size: 2rem;
+        }
+
+        .btn {
+            padding: 12px 20px;
+            font-size: 0.9rem;
+        }
+
+        .hero-img {
+            height: 300px;
+        }
+
+        .about-img {
+            height: 250px;
+        }
+
+        .gallery-img {
+            height: 250px;
+        }
+
+        .gallery-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .map-container {
+            height: 300px;
+        }
+    }
+
+    /* Animações */
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .fade-in-up {
+        animation: fadeInUp 0.6s ease-out;
+    }
+
+    /* Smooth scroll */
+    html {
+        scroll-behavior: smooth;
+    }
+    </style>
+
+    <script>
+    // Aguardar carregamento do DOM
+    document.addEventListener('DOMContentLoaded', function() {
+        
+        // Elementos do DOM
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        const navLinks = document.querySelectorAll('.nav-link');
+        const header = document.querySelector('.header');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        const modal = document.getElementById('galleryModal');
+        const modalImg = document.getElementById('modalImage');
+        const modalCaption = document.getElementById('modalCaption');
+        const closeModal = document.querySelector('.close');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        let currentImageIndex = 0;
+        const images = Array.from(galleryItems).map(item => item.querySelector('.gallery-img'));
+
+        // Menu Mobile Toggle
+        function toggleMobileMenu() {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+            document.body.classList.toggle('menu-open');
+        }
+
+        // Event listeners para menu mobile
+        if (hamburger) {
+            hamburger.addEventListener('click', toggleMobileMenu);
+        }
+
+        // Fechar menu ao clicar em um link
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+                document.body.classList.remove('menu-open');
+            });
+        });
+
+        // Header scroll effect
+        function handleScroll() {
+            const scrollTop = window.pageYOffset;
+            
+            if (scrollTop > 100) {
+                header.style.background = 'rgba(255, 255, 255, 0.98)';
+                header.style.boxShadow = '0 2px 30px rgba(0, 0, 0, 0.15)';
+            } else {
+                header.style.background = 'rgba(255, 255, 255, 0.95)';
+                header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+            }
+        }
+
+        window.addEventListener('scroll', handleScroll);
+
+        // Smooth scroll para links internos
+        function smoothScroll() {
+            const links = document.querySelectorAll('a[href^="#"]');
+            
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    const targetSection = document.querySelector(targetId);
+                    
+                    if (targetSection) {
+                        const headerHeight = header.offsetHeight;
+                        const targetPosition = targetSection.offsetTop - headerHeight;
+                        
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        }
+
+        smoothScroll();
+
+        // Modal da Galeria com navegação
+        function initGalleryModal() {
+            galleryItems.forEach((item, index) => {
+                item.addEventListener('click', function() {
+                    const img = this.querySelector('.gallery-img');
+                    
+                    if (img && modal) {
+                        currentImageIndex = index;
+                        updateModalImage();
+                        modal.style.display = 'block';
+                        document.body.style.overflow = 'hidden';
+                    }
+                });
+            });
+
+            // Fechar modal
+            function closeGalleryModal() {
+                if (modal) {
+                    modal.style.display = 'none';
+                    document.body.style.overflow = 'auto';
+                }
+            }
+
+            // Atualizar imagem no modal
+            function updateModalImage() {
+                const img = images[currentImageIndex];
+                const overlay = galleryItems[currentImageIndex].querySelector('.gallery-overlay');
+                
+                modalImg.src = img.src;
+                modalImg.alt = img.alt;
+                
+                if (overlay) {
+                    const title = overlay.querySelector('h4');
+                    const description = overlay.querySelector('p');
+                    modalCaption.innerHTML = `
+                        <h3>${title ? title.textContent : ''}</h3>
+                        <p>${description ? description.textContent : ''}</p>
+                    `;
+                }
+            }
+
+            // Navegação entre imagens
+            function showNextImage() {
+                currentImageIndex = (currentImageIndex + 1) % images.length;
+                updateModalImage();
+            }
+
+            function showPrevImage() {
+                currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+                updateModalImage();
+            }
+
+            // Event listeners
+            if (closeModal) {
+                closeModal.addEventListener('click', closeGalleryModal);
+            }
+
+            if (modal) {
+                modal.addEventListener('click', function(e) {
+                    if (e.target === modal) {
+                        closeGalleryModal();
+                    }
+                });
+            }
+
+            if (nextBtn) {
+                nextBtn.addEventListener('click', showNextImage);
+            }
+
+            if (prevBtn) {
+                prevBtn.addEventListener('click', showPrevImage);
+            }
+
+            // Navegação por teclado
+            document.addEventListener('keydown', function(e) {
+                if (modal.style.display === 'block') {
+                    if (e.key === 'Escape') {
+                        closeGalleryModal();
+                    } else if (e.key === 'ArrowRight') {
+                        showNextImage();
+                    } else if (e.key === 'ArrowLeft') {
+                        showPrevImage();
+                    }
+                }
+            });
+        }
+
+        initGalleryModal();
+
+        // Botão de voltar ao topo
+        function initBackToTop() {
+            const backToTopBtn = document.createElement("button");
+            backToTopBtn.innerHTML = "<i class=\"fas fa-arrow-up\"></i>";
+            backToTopBtn.className = "back-to-top";
+            backToTopBtn.style.cssText = `
+                position: fixed;
+                bottom: 30px;
+                right: 30px;
+                width: 50px;
+                height: 50px;
+                background: var(--gradient-primary);
+                border: none;
+                border-radius: 50%;
+                color: white;
+                font-size: 1.2rem;
+                cursor: pointer;
+                opacity: 0;
+                visibility: hidden;
+                transition: all 0.3s ease;
+                z-index: 1000;
+                box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            `;
+
+            document.body.appendChild(backToTopBtn);
+
+            // Mostrar/esconder botão baseado no scroll
+            window.addEventListener("scroll", () => {
+                if (window.pageYOffset > 300) {
+                    backToTopBtn.style.opacity = "1";
+                    backToTopBtn.style.visibility = "visible";
+                } else {
+                    backToTopBtn.style.opacity = "0";
+                    backToTopBtn.style.visibility = "hidden";
+                }
+            });
+
+            // Scroll suave para o topo
+            backToTopBtn.addEventListener("click", () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            });
+
+            // Hover effect
+            backToTopBtn.addEventListener("mouseenter", () => {
+                backToTopBtn.style.transform = "scale(1.1)";
+            });
+
+            backToTopBtn.addEventListener("mouseleave", () => {
+                backToTopBtn.style.transform = "scale(1)";
+            });
+        }
+
+        initBackToTop();
+
+        // Redimensionamento da janela
+        window.addEventListener("resize", () => {
+            // Fechar menu mobile se a tela ficar grande
+            if (window.innerWidth > 768) {
+                hamburger.classList.remove("active");
+                navMenu.classList.remove("active");
+                document.body.classList.remove("menu-open");
+            }
+        });
+
+        console.log("🎂 Adriana Bolos - Site carregado com sucesso!");
+    });
+    </script>
+</body>
+</html>
