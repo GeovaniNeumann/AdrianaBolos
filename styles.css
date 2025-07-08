@@ -376,12 +376,31 @@
     }
 
     .about-img {
-        width: 350px;
-        height: 450px;
-        object-fit: cover;
-        border-radius: 20px;
-        box-shadow: var(--shadow);
-        transition: var(--transition);
+    width: 100%; /* Ocupa a largura do container */
+    max-width: 350px; /* Limite máximo para desktop */
+    height: auto; /* Altura proporcional à largura */
+    object-fit: contain; /* Garante que a imagem inteira seja visível */
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    background: var(--secondary-color); /* Cor de fundo para espaços vazios */
+    
+    }
+
+    /* Ajuste para telas médias (tablets) */
+    @media (max-width: 992px) {
+        .about-img {
+            max-width: 300px;
+        }
+    }
+    
+    /* Ajuste para mobile */
+    @media (max-width: 768px) {
+        .about-img {
+            max-width: 100%; /* Ocupa toda a largura em telas pequenas */
+            height: auto;
+            object-fit: contain; /* Mostra a imagem completa */
+        }
     }
 
     .about-img:hover {
